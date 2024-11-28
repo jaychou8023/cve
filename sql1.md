@@ -6,9 +6,11 @@ https://code-projects.org/farmacia-in-php-css-javascript-and-mysql-free-download
 visualizar-forneccedor.php
 
 ## describe
-
+The visualizer-forneccedor.chp file in Farmasia in PHP contains SQL injection. The injection parameter is id, and malicious attackers exploit SQL injection vulnerabilities to obtain database information.
 
 **Code analysis**    
+Get the value of ID, concatenate it into an SQL statement, and execute it without any restrictions
+
 
 ![image-20241127113237736](https://github.com/user-attachments/assets/0699dc16-6ba4-444f-b7e8-f594f87210ed)
 
